@@ -93,7 +93,7 @@ export default (props) => {
       );
       setIsOn(attendanceGQLQuery.data.getAttendance.isOn);
       if (attendanceGQLQuery.data.getAttendance.isOn)
-        message.info("Attendance is currently opened");
+        message.info("Attendance is currently open");
       else {
         if (user.userLevel == 0)
           message.info("Attendance had been closed by the host.");

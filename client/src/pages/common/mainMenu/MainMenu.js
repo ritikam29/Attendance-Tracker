@@ -19,7 +19,7 @@ export default () => {
         fontFamily: '-apple-system',
         fontSize: "1.5rem",
        
-        color: "#DAA520",
+        color: "#707793",
         backgroundColor: "#FECD45",
        
       }}
