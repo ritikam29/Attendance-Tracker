@@ -165,5 +165,10 @@ The project used face.api js which is a Javascript face recognition library whic
 
 ![image](https://user-images.githubusercontent.com/83155788/170878340-e32c426f-46d6-457f-be5b-9d08b22537b1.png)
 
+![image](https://user-images.githubusercontent.com/83155788/170878410-6dde9c9d-2570-4bdb-81e8-672bd50f81cc.png)
+
+![image](https://user-images.githubusercontent.com/83155788/170878451-4f7d19c7-2489-489c-b053-127e6d57c639.png)
+
+
 
 
