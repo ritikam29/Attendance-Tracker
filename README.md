@@ -139,7 +139,7 @@ Visualize the attendance data in **Attendance History**, or you can view a parti
 
 14.The face photo of the student who is kicked out will not be counted next time taking the attendance.
 
-## Tech Stack used in the project
+## Tech Stack
 
 The project used face.api js which is a Javascript face recognition library which uses state-of-the-art deep learning algorithm and provide a high level API to perform tasks such as age prediction, gender prediction, face expression prediction, face detection, facial landmark detection and face recognition.
 
