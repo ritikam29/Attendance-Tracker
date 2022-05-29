@@ -69,7 +69,7 @@ Assign the refresh token to GOOGLE_OAUTH_REFRESH_TOKEN )
 
 10.GOOGLE_OAUTH_REDIRECT_URI = https://developers.google.com/oauthplayground
 
-## To  THE APPLICATION**
+## To run the Application**
 
 1. **SERVER**
 
