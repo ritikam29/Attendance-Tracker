@@ -1,0 +1,45 @@
+@media only screen and (max-width: 400px) {
+    .headerNavbar .avatar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .headerNavbar__text {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .headerNavbar__text {
+        display: block;
+    }
+}
+
+.headerNavbar__text {
+    float: left;
+    color: #FECD45;
+}
+
+.headerNavbar__text__item:first-child {
+    font-weight: bold;
+    color: #FECD45;
+    margin-right: 5px;
+}
+
+.headerNavbar__text__item:nth-child(2) {
+    font-weight: bold;
+    color: #2568FB;
+    margin-right: 5px;
+}
+
+.headerNavbar__menu {
+    float: right;
+    color: blue;
+}
+
+.headerNavbar .avatar {
+    top: 10px;
+    float: left;
+    margin-right: 10px;
+}
