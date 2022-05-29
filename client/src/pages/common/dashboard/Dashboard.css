@@ -1,3 +1,4 @@
-.dashboard__layout{
+.dashboard__layout {
     min-height: 100vh !important;
+    background-color: #FECD45;
 }

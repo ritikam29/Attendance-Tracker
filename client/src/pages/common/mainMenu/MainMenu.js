@@ -11,9 +11,27 @@ const { Title } = Typography;
 
 export default () => {
   return (
+   
+    <section
+    
+      style={{
+      
+        fontFamily: '-apple-system',
+        fontSize: "1.5rem",
+       
+        color: "#DAA520",
+        backgroundColor: "#FECD45",
+       
+      }}
+    >
+     
+
     <Layout className='home layout'>
       <HeaderNavbar />
       <Content>
+      <Divider />
+            <Divider />
+            <Divider />
         <Row align="middle">
           <Col style={{ top: '50px' }} span={24} align="middle">
             <Title level={3}>
@@ -21,6 +39,7 @@ export default () => {
                 type="left"
                 mode="random"
               >
+               
                 Welcome to the Attendance Tracker
               </Texty>
             </Title>
@@ -29,21 +48,27 @@ export default () => {
               mode="smooth"
               interval="20"
             >
+            
              The Attendance Tracking App with Face Recognition
             </Texty>
-
-            <br />
+           
+            <Divider/>
+            
             <Button type='primary' htmlType='submit'>
               <Link to='/signup'>Register</Link>
+            
             </Button>
-            <Divider />
+           <Divider/>
+           
             <div>
-             New User? Do look into the <Link to='/userguidelines'> User Guidelines</Link>
+             New User? Do look into the User Guidelines
             </div>
           </Col>
         </Row>
       </Content>
       <Footer />
     </Layout>
+  
+    </section>
   );
 };
