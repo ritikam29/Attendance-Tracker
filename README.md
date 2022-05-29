@@ -139,6 +139,14 @@ Visualize the attendance data in **Attendance History**, or you can view a parti
 
 14.The face photo of the student who is kicked out will not be counted next time taking the attendance.
 
+## Implementation
+
+The project is built using the face-api.js which is a js api for face detection and face recognition in the browser which uses node.js with tenser flow. 
+
+Regarding the face detection, the API provides 3 kinds of face detection pre-trained models which are MTCNN, SSD MobileNet V1 and Tiny Face. Among these models, I used the SSD MobileNet V1 because it is much more efficient and accurate as compared to the others.
+
+The system is a client-server architecture which contains several modules such as face registration module, face matching module, user module, attendance module and course module. Each module is backed by the resolver in the server to handle the respective GraphQL request query.
+
 ## Tech Stack
 
 The project used face.api js which is a Javascript face recognition library which uses state-of-the-art deep learning algorithm and provide a high level API to perform tasks such as age prediction, gender prediction, face expression prediction, face detection, facial landmark detection and face recognition.
@@ -150,4 +158,12 @@ The project used face.api js which is a Javascript face recognition library whic
 3.**MongoDB** - The extracted features are sent over to the server and stored into the database.As a document database, MongoDB makes it easy to store structured or unstructured data.
 
 4.I have used **GraphQL** which basically helps in connecting the frontend and backend of the project. GraphQL is designed to make APIs fast, flexible, and developer-friendly. The project also uses **Apollo Client** which is a comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL.
+
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/83155788/170878303-8dc928a3-07d4-452a-91fe-4eb1a18986be.png)
+
+![image](https://user-images.githubusercontent.com/83155788/170878340-e32c426f-46d6-457f-be5b-9d08b22537b1.png)
+
+
 
