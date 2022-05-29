@@ -47,9 +47,9 @@ The .env file that was used for the project:
  
 5.CLOUDINARY_API_SECRET = hhRFyHgJ6SikBGm2gYhpNCamiA8 //the API_SECRET is obtained from the cloudinary website
   
-6 GOOGLE_OAUTH_USERNAME = mahapatraritika2002@gmail.com // the email id that had been logged into the GCP console
+6.GOOGLE_OAUTH_USERNAME = mahapatraritika2002@gmail.com // the email id that had been logged into the GCP console
  
-7. GOOGLE_OAUTH_CLIENT_ID = 984359907422-hv5sr1uk0uunrrgs4h4fpo82cenr5k73.apps.googleusercontent.com // Under the **Credentials" tab** select "mail" OAuth client and copy the app id.
+7.GOOGLE_OAUTH_CLIENT_ID = 984359907422-hv5sr1uk0uunrrgs4h4fpo82cenr5k73.apps.googleusercontent.com // Under the **Credentials" tab** select "mail" OAuth client and copy the app id.
  
 8.GOOGLE_OAUTH_CLIENT_SECRET = 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 // Under the **Credentials" tab** select "mail" OAuth client and copy the secret.
  
@@ -69,7 +69,7 @@ Assign the refresh token to GOOGLE_OAUTH_REFRESH_TOKEN )
 
 10.GOOGLE_OAUTH_REDIRECT_URI = https://developers.google.com/oauthplayground
 
-## To run the Application**
+## To run the Application
 
 1. **SERVER**
 
@@ -82,17 +82,17 @@ Assign the refresh token to GOOGLE_OAUTH_REFRESH_TOKEN )
    
 3. **CLIENT**
 
- Open CMD 
- cd client
- npm start 
+    Open CMD 
+    cd client
+    npm start 
  
-The client is running on http://localhost:3000.
+    The client is running on http://localhost:3000.
 
 
             
 
 
-**Tech Stack used in the project**:
+## Tech Stack used in the project
 
 The project used face.api js which is a Javascript face recognition library which uses state-of-the-art deep learning algorithm and provide a high level API to perform tasks such as age prediction, gender prediction, face expression prediction, face detection, facial landmark detection and face recognition.
 
