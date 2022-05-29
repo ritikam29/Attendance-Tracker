@@ -90,7 +90,54 @@ Assign the refresh token to GOOGLE_OAUTH_REFRESH_TOKEN )
 
 
             
+## USERS
 
+**Student**
+
+1.Register or Login 
+
+2.Enrol into a course.
+
+3.Upload your pics in the **Face Gallery**(advised tohave atleast 2 pics)
+
+4.Wait for all models to be loaded.
+
+5.The system will perform face detection, ensuring only a single face exists and rejecting any photo with no faces or multiple faces.
+
+6.The photo will be then uploaded to the image storage.
+
+When your lecturer takes the attendance for a particular course, all your uploaded facial data will be counted into the dataset for facial comparison.
+Visualize the attendance data in **Attendance History**, or you can view a particular course and click **View Attendance History**.
+
+**Lecturer**
+
+1.Register or Login
+
+2.Create a course.
+
+3.Give the unique ID of the to your students.
+
+4.The photos will be uploaded by the student.
+
+5.After all students have enrolled, select a course and take the attendance.
+
+6.You can see how many students have enroled and their pics.
+
+7.Ensure that the students upload their face photo, otherwise there is no facial data of that student for reference.
+
+8.Only those students who enrol in the particular course will be counted into the dataset for facial classification.
+
+9.Inside the attendance taking form you can select the time and date.
+
+10.Wait for all the models to be loaded.
+
+11.Submit the attendance form when finished.
+
+12.Visualize the attendance data in **Attendance History**, or you can enter a particular course and click **View Attendance History**.
+
+13.You can **Warn** or **Kick** the student out of a course.
+
+14.The face photo of the student who is kicked out will not be counted next time taking the attendance.
 
 ## Tech Stack used in the project
 
