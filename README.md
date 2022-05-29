@@ -1,4 +1,14 @@
 # Attendance-Tracker
+**Prerequisites**
+**Step 1**: Clone the repository: git clone https://github.com/ritikam29/Attendance-Tracker.git 
+**Step 2**: Install the dependencies:
+            cd server
+            npm i
+            cd client
+            npm i
+**Step 3**: Create an account in MongoDB Cloud
+            
+
 
 Tech Stack used in the project:
 
@@ -11,3 +21,4 @@ The project used face.api js which is a Javascript face recognition library whic
 3.**MongoDB** - The extracted features are sent over to the server and stored into the database.As a document database, MongoDB makes it easy to store structured or unstructured data.
 
 4.I have used **GraphQL** which basically helps in connecting the frontend and backend of the project. GraphQL is designed to make APIs fast, flexible, and developer-friendly. The project also uses **Apollo Client** which is a comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL.
+
