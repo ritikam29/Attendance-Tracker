@@ -46,14 +46,14 @@ The .env file that was used for the project:
  
 5.CLOUDINARY_API_SECRET = hhRFyHgJ6SikBGm2gYhpNCamiA8 //the API_SECRET is obtained from the cloudinary website
   
-6 GOOGLE_OAUTH_USERNAME = mahapatraritika2002@gmail.com // the email id that had been logged into the GCP console
+6.GOOGLE_OAUTH_USERNAME = mahapatraritika2002@gmail.com // the email id that had been logged into the GCP console
  
-7. GOOGLE_OAUTH_CLIENT_ID = 984359907422-hv5sr1uk0uunrrgs4h4fpo82cenr5k73.apps.googleusercontent.com // Under the **Credentials" tab** select "mail" OAuth client and copy the app id.
- 
+7.GOOGLE_OAUTH_CLIENT_ID = 984359907422-hv5sr1uk0uunrrgs4h4fpo82cenr5k73.apps.googleusercontent.com // Under the **Credentials" tab** select "mail" OAuth client and copy the app id.
+
 8.GOOGLE_OAUTH_CLIENT_SECRET = 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 // Under the **Credentials" tab** select "mail" OAuth client and copy the secret.
  
-9.GOOGLE_OAUTH_REFRESH_TOKEN = 1//04Doh4cpScUnoCgYIARAAGAQSNwF-L9Ir0Nv4JR6UcFnYOyz1pOpVVpfQNq0wSp5jKadGGi5B3NRJUEUcyb1QY7fx7q2Xk480uUU //( 
-Go to https://developers.google.com/oauthplayground, enter scope: "https://mail.google.com".
+9.GOOGLE_OAUTH_REFRESH_TOKEN = 1//04Doh4cpScUnoCgYIARAAGAQSNwF-L9Ir0Nv4JR6UcFnYOyz1pOpVVpfQNq0wSp5jKadGGi5B3NRJUEUcyb1QY7fx7q2Xk480uUU 
+//(Go to https://developers.google.com/oauthplayground, enter scope: "https://mail.google.com".
 
 Before submiting, click the setting icon on the top right.
 
